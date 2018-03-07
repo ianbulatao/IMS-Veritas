@@ -1,8 +1,17 @@
 var x = 4;
 var b =3;
-if(b != x) {
-  $('.haha').addClass('rem');
-}
+const good = 300;
+const warning = 150;
+const bad = 50;
+const divLength = $(".ovrview-panel > div").length;
+
+//Dashboard check
+// for( i = 0; i> divLength; i++) {
+//   if(5 < bad ) {
+//
+//   }
+// }
+
 $('.tabs').on('click','li a',function() {
   $('.links').removeClass('active');
   $(this).toggleClass('active');

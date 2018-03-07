@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body { background-color: #ecf0f1; }
+.form-login {
+  background-color: #2c3e50;
+  margin: 0 auto;
+  width: 300px;
+}
+.input-search {
+  border: 1px solid rgba(44,62,80 , .5);
+  border-radius: 2px;
+  height: 2em;
+  padding-left: 10px;
+}

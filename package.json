@@ -17,5 +17,6 @@
   "author": "IAN",
   "license": "ISC",
   "devDependencies": {
-   }
+    "@angular/cli": "^1.7.2"
+  }
 }
