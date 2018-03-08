@@ -11,12 +11,9 @@
     "ejs": "^2.5.7",
     "express": "*",
     "mongodb": "^3.0.2",
-    "mysql": "^2.15.0",
-    "vue": "^2.5.13"
+    "mysql": "^2.15.0"
   },
   "author": "IAN",
   "license": "ISC",
-  "devDependencies": {
-    "@angular/cli": "^1.7.2"
-  }
+  "devDependencies": {}
 }
