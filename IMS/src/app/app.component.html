@@ -12,9 +12,9 @@
     <hr>
     <div id="myNavbar" class="collapse navbar-collapse tab-panel">
       <ul class="tabs">
-        <li><a class="links active" href="dashboard.html" target="main-panel">Dashboard</a></li>
-        <li><a class="links" href="suppliers.html" target="main-panel">Supplier</a></li>
-        <li><a class="links" href="products.html" target="main-panel">Products</a></li>
+        <li><a class="links active" routerLink="/dashboard">Dashboard</a></li>
+        <li><a class="links" routerLink="/supplier">Supplier</a></li>
+        <li><a class="links" routerLink="/products">Products</a></li>
       </ul>
       <button class="supplr-email" data-toggle="modal" data-target="#exampleModal" >Message Supplier</button>
       <!--Modal Email-->
@@ -45,8 +45,7 @@
       </div>
     </div>
   </nav>
-  <div class="main-panel">
-
-  </div>
+  <div class="outlet">
+  <router-outlet></router-outlet>
 </div>
-<router-outlet></router-outlet>
+</div>

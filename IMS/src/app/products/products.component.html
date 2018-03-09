@@ -1,0 +1,54 @@
+<div class="Swrapper">
+  <form class="search-bar" action="index.html" method="post">
+    <input class="input-search" type="text" name="search" value="" placeholder="Search">
+    <button class="btn-search" type="submit" name="button">Search</button>
+    <button class="btn-add" type="button" name="button" data-toggle="modal" data-target="#productModal">Add product</button>
+  </form>
+  <!-- MODAL -->
+  <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel">Add Product</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <div class="prdct-artcle-input">
+                <label for="Product">Product:  </label>
+                <input class="input-search" type="text" name="Product" value="" placeholder="Product name">
+              </div>
+              <div class="prdct-artcle-input">
+                <label for="Product">Product type:  </label>
+                <select class="prdct-type" name="">
+                  <option value="">whaa</option>
+                  <option value="">whaa</option>
+                  <option value="">whaa</option>
+                  <option value="">whaa</option>
+                </select>
+              </div>
+              <div class="prdct-artcle-input">
+                <label for="Product">Quantity:  </label>
+                <input class="input-search" type="text" name="Product" value="" placeholder="Product name">
+              </div>
+              <div class="prdct-artcle-input">
+                <label for="Product">Supplier:  </label>
+                <select class="prdct-type" name="">
+                  <option value="">whaa</option>
+                  <option value="">whaa</option>
+                  <option value="">whaa</option>
+                  <option value="">whaa</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add Product</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Modal-->
+</div>

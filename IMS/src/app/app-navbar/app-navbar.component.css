@@ -72,14 +72,13 @@ ul.tabs {
 .main-panel  {
 
 }
-.outlet {
+/* .frame {
   width: 100%;
   height: 100vh;
   border: none;
   background-color: rgba(52,152,219 ,.05);
-}
+} */
 @media only screen and (max-width: 720px) {
-  .sidebar-panel { height: auto; }
   .tabs a:hover {
     text-decoration: none;
     transition: all ease .8s;
